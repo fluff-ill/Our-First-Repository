@@ -24,4 +24,10 @@ def print_something():
 
 
 print_something()
-print (x)
+print(x)
+
+
+# 4.13.4 : Functions and Variables: Part Two
+# Sophia Carahaly
+# 2.14.19
+
