@@ -4,12 +4,13 @@
 
 name = input("What is your name: ")
 
+
 def greeting():
-    print ("Hi there " + name + "!")
-    print ("Nice to meet you!")
+    print("Hi there " + name + "!")
+    print("Nice to meet you!")
+
 
 greeting()
-
 
 # 4.13.4 : Functions and Variables
 # Sophia Carahaly
@@ -37,6 +38,7 @@ my_variable = 3.6745
 def something():
     print(my_variable + 10)
 
+
 something()
 
 # 4.13.6: Functions and Variables, Part 3
@@ -62,3 +64,12 @@ def print_name_and_age(name, age):
 
 print_name_and_age("Sierra", 34)
 print_name_and_age("Marcus", 19)
+
+# 4.14.5: Default Parameter Values
+# Sophia Carahaly
+# 2.19.19
+
+
+def print_two_numbers(x, y=20):
+    print('First number:', x)
+    print('Second number: ' + str(y))
