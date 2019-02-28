@@ -72,4 +72,20 @@ print_name_and_age("Marcus", 19)
 
 def print_two_numbers(x, y=20):
     print('First number:', x)
-    print('Second number: ' + str(y))
+      print('Second number: ' + str(y))
+
+
+print_two_numbers(3, 2)
+print_two_numbers(13)
+
+# 4.14.7 : Print Multiple Times
+# Sophia Carahaly
+# 2.19.19
+
+
+def print_multiple_times(sting, times):
+    for i in range(times):
+        print(sting)
+
+
+print_multiple_times('Hello', 4)
