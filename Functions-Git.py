@@ -93,10 +93,17 @@ print_multiple_times('Hello', 4)
 
 
 
+# 4.14.7 : Print Multiple Times
+# Sophia Carahaly
+# 2.19.19
 
 
+def print_multiple_times(sting, times):
+    for i in range(times):
+        print(sting)
 
 
+print_multiple_times('Hello', 4)
 
 
 
