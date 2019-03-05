@@ -72,7 +72,7 @@ print_name_and_age("Marcus", 19)
 
 def print_two_numbers(x, y=20):
     print('First number:', x)
-      print('Second number: ' + str(y))
+    print('Second number: ' + str(y))
 
 
 print_two_numbers(3, 2)
@@ -130,3 +130,19 @@ try:
     print('Your number: ' + str(my_number))
 except ValueError:
     print('That was not an integer')
+
+
+# 4.16.3: Enter Name and Age
+# Sophia Carahaly
+# 2.20.19
+
+name = input("what is your name: ")
+age = -1
+
+try:
+    age = int(input('Enter your age: '))
+except ValueError:
+    print("That was not a valid age")
+
+print('\n''Name:', name)
+print('Age:', age)
